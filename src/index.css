@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FFFDD0;
+  --brown: #6B4423;
+  --gold: #DAA520;
+  --light-gold: #FAD5A5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--cream);
+  color: var(--brown);
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.text-brown { color: var(--brown); }
+.text-gold { color: var(--gold); }
+.bg-cream { background-color: var(--cream); }
+.bg-gold { background-color: var(--gold); }
+.bg-light-gold { background-color: var(--light-gold); }
+
+.hero-section {
+  background: linear-gradient(to bottom right, var(--cream), var(--light-gold));
+}
+
+.cta-button {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.product-card {
+  border: 1px solid rgba(107, 68, 35, 0.1);
+}
+
+.product-card:hover {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem !important;
+  }
+}
