@@ -28,7 +28,7 @@ const Nav = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/src/assets/hero.png" alt="Al Janaat Sweets" className="h-10 md:h-12 w-auto rounded-lg shadow-md" />
+              <img src="/images/hero.png" alt="Al Janaat Sweets" className="h-10 md:h-12 w-auto rounded-lg shadow-md" />
               <span className="text-xl md:text-2xl font-bold text-[color:var(--brown)] hidden sm:inline">Al Janaat Sweets</span>
             </Link>
           </div>

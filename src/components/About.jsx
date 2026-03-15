@@ -40,7 +40,7 @@ const About = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           className="about-image rounded-3xl shadow-2xl overflow-hidden"
-style={{ backgroundImage: "url('/src/assets/Croissant.jpg')", backgroundSize: 'cover', height: '500px' }}
+style={{ backgroundImage: "url('/images/Croissant.jpg')", backgroundSize: 'cover', height: '500px' }}
         />
       </motion.div>
     </section>

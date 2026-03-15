@@ -7,12 +7,12 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const heroImages = [
-    '/src/assets/rasgulla.jpg',
-    '/src/assets/gulab jamun.jpg',
-    '/src/assets/burfi.jpeg',
-    '/src/assets/Croissant.jpg',
-    '/src/assets/bread 1.jpg',
-    '/src/assets/biscuts1.jpg'
+    '/images/rasgulla.jpg',
+    '/images/gulab jamun.jpg',
+    '/images/burfi.jpeg',
+    '/images/Croissant.jpg',
+    '/images/bread 1.jpg',
+    '/images/biscuts1.jpg'
   ];
 
   const heroNames = [
