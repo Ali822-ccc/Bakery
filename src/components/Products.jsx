@@ -3,7 +3,7 @@ import { menuItems } from '../data/menu.js';
 
 const Products = () => {
   return (
-    <section className="products-section py-24 px-4 max-w-7xl mx-auto">
+  <section className="products-section py-12 sm:py-20 lg:py-24 px-4 max-w-7xl mx-auto">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -11,7 +11,7 @@ const Products = () => {
       >
         Our Menu
       </motion.h2>
-      <div className="products-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="products-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {menuItems.map((item, index) => (
           <motion.div 
             key={item.id}

@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
 
             {/* Image height slightly adjusted for better aspect ratio */}
-            <div className="relative h-[50vh] md:h-[60vh] lg:h-[65vh] w-full">
+            <div className="relative min-h-[280px] h-[50vh] md:h-[60vh] lg:h-[70vh] w-full">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentIndex}
@@ -107,7 +107,7 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <h1 className="text-4xl md:text-6xl font-serif font-black text-[#3d2314] mb-3 tracking-tight">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-black text-[#3d2314] mb-3 tracking-tight leading-tight">
               Al Janaat Sweets
             </h1>
             <p className="text-[#3d2314]/60 text-base md:text-xl max-w-lg mx-auto mb-6 leading-relaxed">
@@ -126,7 +126,7 @@ const Hero = () => {
 
             <Link
               to="/menu"
-              className="group relative inline-flex items-center gap-3 bg-[#3d2314] text-white px-12 py-5 rounded-full text-lg font-bold shadow-2xl hover:bg-[#d6b35e] hover:text-[#3d2314] transition-all duration-500"
+              className="group relative inline-flex items-center gap-3 bg-[#3d2314] text-white px-8 py-4 sm:px-10 sm:py-5 text-base sm:text-lg font-bold shadow-2xl min-w-[200px] justify-center hover:bg-[#d6b35e] hover:text-[#3d2314] transition-all duration-500"
             >
               Explore Our Menu
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section className="about-section py-24 px-4 max-w-7xl mx-auto">
+  <section className="about-section py-12 sm:py-20 lg:py-24 px-4 max-w-7xl mx-auto">
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -21,7 +21,7 @@ const About = () => {
             From decadent cakes and traditional desi sweets to buttery pastries and biscuits, our commitment to quality and customer satisfaction has earned us a perfect 5.0 rating. 
             Takeout available for all your sweet cravings!
           </p>
-          <div className="stats grid grid-cols-3 gap-8">
+          <div className="stats grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-gold">5.0</div>
               <div>Rating</div>

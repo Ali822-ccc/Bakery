@@ -3,7 +3,7 @@ import { Phone, MapPin, Facebook, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section className="contact-section py-24 px-4 max-w-6xl mx-auto">
+  <section className="contact-section py-12 sm:py-20 lg:py-24 px-4 max-w-6xl mx-auto">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

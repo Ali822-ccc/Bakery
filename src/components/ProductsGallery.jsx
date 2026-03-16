@@ -9,7 +9,7 @@ const productImages = [
 
 const ProductsGallery = () => {
   return (
-    <section className="products-gallery-section py-24 px-4 max-w-7xl mx-auto">
+<section className="products-gallery-section py-12 sm:py-20 lg:py-24 px-4 max-w-7xl mx-auto">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -17,7 +17,7 @@ const ProductsGallery = () => {
       >
         Our Products
       </motion.h2>
-      <div className="products-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="products-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
         {productImages.map((src, index) => (
           <motion.div
             key={index}
@@ -30,7 +30,7 @@ const ProductsGallery = () => {
             <img 
               src={src} 
               alt="Product image"
-              className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700" 
+              className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-110 transition-transform duration-700" 
             />
           </motion.div>
         ))}

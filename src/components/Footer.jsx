@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#3d2314] text-[#fdf6e9] py-16 px-6 overflow-hidden">
+  <footer className="relative bg-[#3d2314] text-[#fdf6e9] py-12 sm:py-16 px-4 sm:px-6 overflow-hidden">
       {/* Decorative Background Element */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#d6b35e] to-transparent opacity-30" />
 

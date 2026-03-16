@@ -28,8 +28,8 @@ const Nav = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/images/hero.png" alt="Al Janaat Sweets" className="h-10 md:h-12 w-auto rounded-lg shadow-md" />
-              <span className="text-xl md:text-2xl font-bold text-[color:var(--brown)] hidden sm:inline">Al Janaat Sweets</span>
+<img src="/images/hero.png" alt="Al Janaat Sweets" className="h-9 sm:h-10 md:h-11 lg:h-12 w-auto rounded-lg shadow-md" />
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-[color:var(--brown)] hidden sm:inline">Al Janaat Sweets</span>
             </Link>
           </div>
 

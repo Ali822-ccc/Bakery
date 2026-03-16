@@ -4,7 +4,7 @@ import { reviews } from '../data/reviews.js';
 
 const Reviews = () => {
   return (
-    <section className="reviews-section py-24 px-4 max-w-4xl mx-auto bg-cream/50">
+  <section className="reviews-section py-12 sm:py-20 lg:py-24 px-4 max-w-4xl mx-auto bg-cream/50">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
